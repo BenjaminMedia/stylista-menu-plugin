@@ -135,6 +135,7 @@ EOT;
 		list-style: none;
 		margin: 0;
 		padding: 0;
+		line-height: 14px;
 	}
 
 	.stylista-bloggerbar ul li {
