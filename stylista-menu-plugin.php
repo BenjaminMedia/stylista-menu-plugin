@@ -140,7 +140,7 @@ EOT;
 
 	.stylista-bloggerbar ul li {
 		float: left;
-		margin-right: 24px;
+		margin: 0 24px 6px 0;
 	}
 
 	.stylista-bloggerbar ul li a {
