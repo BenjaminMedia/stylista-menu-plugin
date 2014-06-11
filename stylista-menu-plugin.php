@@ -114,7 +114,7 @@ EOT;
 		position: relative;
 		text-transform: uppercase;
 	}
-	.bloggerbar {
+	.stylista-bloggerbar {
 		margin: 0 auto;
 		max-width: 1160px;
 		background: #F6F6F6;
