@@ -115,6 +115,12 @@ EOT;
 		text-transform: uppercase;
 	}
 	.stylista-bloggerbar {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+		font-family: 'ProximaNova-Regular', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		font-size: 14px;
 		margin: 0 auto;
 		max-width: 1160px;
 		background: #F6F6F6;
@@ -133,6 +139,11 @@ EOT;
 	.stylista-bloggerbar ul li {
 		float: left;
 		margin-right: 24px;
+		line-height: 1em;
+	}
+
+	.stylista-bloggerbar ul li a {
+		text-decoration: none;
 	}
 
 	.stylista-bloggerbar ul li.last {
@@ -167,7 +178,7 @@ echo <<< EOT
 	<div class="stylista-header">
 		<div class="stylista-nav-wrapper">
 EOT;
-			echo '<a href="http://stylista.no"><img class="logo" src="' . plugins_url( 'logo.png' , __FILE__ ) . '" /></a>';
+			echo '<a href="http://stylista.no"><img class="stylista-logo" src="' . plugins_url( 'logo.png' , __FILE__ ) . '" /></a>';
 echo <<< EOT
 
 			<ul class="stylista-menu stylista-main-menu">
