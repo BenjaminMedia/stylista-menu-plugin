@@ -4,12 +4,12 @@
  * @package Stylista Norway Menu Plugin
  * @author	Peytz & Co
  *
- * Plugin Name:       Stylista.no Menu
- * Plugin URI:        https://github.com/Peytz-WordPress/stylista-header
- * Description:       A plugin to include the stylista.no menu.
- * Version:           1.0
- * Author:            Duddi Mai Daugaard and James Bonham/Peytz & Co
- * Author URI:        http://peytz.dk/medarbejdere/
+ * Plugin Name:			 Stylista.no Menu
+ * Plugin URI:				https://github.com/Peytz-WordPress/stylista-header
+ * Description:			 A plugin to include the stylista.no menu.
+ * Version:					 1.0
+ * Author:						Duddi Mai Daugaard and James Bonham/Peytz & Co
+ * Author URI:				http://peytz.dk/medarbejdere/
  * GitHub Plugin URI: https://github.com/Peytz-WordPress/stylista-header
  */
 
@@ -22,7 +22,7 @@ function stylista_css() {
 		font-family: 'ProximaNova-Bold';
 EOT;
 	echo "src: url('" . plugins_url( 'webfonts/27179A_6_0.eot' , __FILE__ ) . "');";
-	echo "src: url('". plugins_url( 'webfonts/27179A_6_0.eot?#iefix' , __FILE__ ) . "') format('embedded-opentype'),url('" . plugins_url( 'webfonts/27179A_6_0.woff' , __FILE__ ) . "') format('woff'),url('" .  plugins_url( 'webfonts/27179A_6_0.ttf' , __FILE__ ) . "') format('truetype')";
+	echo "src: url('". plugins_url( 'webfonts/27179A_6_0.eot?#iefix' , __FILE__ ) . "') format('embedded-opentype'),url('" . plugins_url( 'webfonts/27179A_6_0.woff' , __FILE__ ) . "') format('woff'),url('" .	plugins_url( 'webfonts/27179A_6_0.ttf' , __FILE__ ) . "') format('truetype')";
 	echo <<< EOT
 	}
 
@@ -114,7 +114,47 @@ EOT;
 		position: relative;
 		text-transform: uppercase;
 	}
+	.bloggerbar {
+		margin: 0 auto;
+		max-width: 1160px;
+		background: #F6F6F6;
+		height: 61px;
+		padding: 10px 0 0 134px;
+		margin-bottom: 20px;
+		list-style: none;
+	}
 
+	.stylista-bloggerbar ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.stylista-bloggerbar ul li {
+		float: left;
+		margin-right: 24px;
+	}
+
+	.stylista-bloggerbar ul li.last {
+		margin-right: 0px;
+	}
+
+
+	.stylista-bloggerbar ul li span{
+		color: #333;
+		text-transform: uppercase;
+		position: relative;
+		top: 16px;
+		margin-left: 10px;
+		font-size: 12px;
+	}
+
+	.stylista-bloggerbar ul li img.profile {
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		float: left;
+	}
 	</style>
 EOT;
 };
@@ -122,26 +162,41 @@ add_action('wp_head', 'stylista_css');
 
 function stylista_html() {
 echo <<< EOT
-	<div id="stylista-header-wrap">
-	  	<div id="stylista-header" class="stylista-header">
-				<div class="stylista-nav-wrapper">
-EOT;
-					echo '<img class="stylista-logo" src="' . plugins_url( 'logo.png' , __FILE__ ) . '" />';
-echo <<< EOT
-					<ul class="stylista-menu stylista-main-menu">
-						<li class="first leaf level-1"><a href="http://stylista.no/trender-og-guider">Trender &amp; Guider</a></li>
-						<li class="leaf level-1"><a href="http://stylista.no/lookbooks">Lookbooks</a></li>
-						<li class="expanded js-expand shop-submenu level-1"><a href="http://stylista.no/shop">Shop</a></li>
-						<li class="expanded js-expand shop-submenu level-1"><a href="http://stylista.no/streetstyle">Streetstyle</a></li>
-					</ul>
 
-					<ul class="stylista-menu stylista-user-menu">
-						<li class="first leaf level-1"><a href="http://stylista.no/user/register">Lag profil</a></li>
-						<li class="last leaf level-1"><a href="http://stylista.no/user/login">Logg inn</a></li>
-				</ul>
-			</div>
+<div id="stylista-header-wrap">
+	<div class="stylista-header">
+		<div class="stylista-nav-wrapper">
+EOT;
+			echo '<a href="http://stylista.no"><img class="logo" src="' . plugins_url( 'logo.png' , __FILE__ ) . '" /></a>';
+echo <<< EOT
+
+			<ul class="stylista-menu stylista-main-menu">
+				<li class="first leaf level-1"><a href="http://stylista.no/trender-og-guider">Trender &amp; Guider</a></li>
+				<li class="leaf level-1"><a href="http://stylista.no/lookbooks">Lookbooks</a></li>
+				<li class="expanded js-expand shop-submenu level-1"><a href="http://stylista.no/shop">Shop</a></li>
+				<li class="expanded js-expand shop-submenu level-1"><a href="http://stylista.no/streetstyle">Streetstyle</a></li>
+			</ul>
+
+			<ul class="stylista-menu stylista-user-menu">
+				<li class="first leaf level-1"><a href="http://stylista.no/user/register">Opret profil</a></li>
+				<li class="last leaf level-1"><a href="http://stylista.no/user/login">Log ind</a></li>
+			</ul>
+
 		</div>
 	</div>
+	<div class="stylista-bloggerbar">
+		<ul>
+EOT;
+			echo '<li><a href="http://stylista.no/blog/ulrikke-lund"><span class="blogger">Ulrikke Lund</span><img class="profile" src="' . plugins_url( 'ulrikke.jpg' , __FILE__ ) . '" /></a></li>';
+			echo '<li><a href="http://stylista.no/blog/ingrid-holm"><span class="blogger">Ingrid Holm</span><img class="profile" src="' . plugins_url( 'ingrid.jpg' , __FILE__ ) . '" /></a></li>';
+			echo '<li><a href="http://stylista.no/blog/nettenestea"><span class="blogger">NetteNestea</span><img class="profile" src="' . plugins_url( 'nettenestea.jpg' , __FILE__ ) . '" /></a></li>';
+			echo '<li><a href="http://stylista.no/blog/bybenedicthe"><span class="blogger">By_Benedicthe</span><img class="profile" src="' . plugins_url( 'bybenedicthe.jpg' , __FILE__ ) . '" /></a></li>';
+			echo '<li><a href="http://stylista.no/blog/cathinthecity"><span class="blogger">CathInTheCity</span><img class="profile" src="' . plugins_url( 'cathinthecity.jpg' , __FILE__ ) . '" /></a></li>';
+			echo '<li class="last"><a href="http://stylista.no/blog/a-portable-package"><span class="blogger">A Portable Package</span><img class="profile" src="' . plugins_url( 'aportablepackage.jpg' , __FILE__ ) . '" /></a></li>';
+echo <<< EOT
+		</ul>
+	</div>
+</div>
 
 	<script type="text/javascript">
 
