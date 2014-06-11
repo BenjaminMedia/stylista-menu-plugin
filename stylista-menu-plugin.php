@@ -41,6 +41,7 @@ EOT;
 		color: #fff;
 		font-family: 'ProximaNova-Regular', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 		font-size: 14px;
+		line-height: 14px;
 	}
 
 	.stylista-nav-wrapper {
@@ -139,7 +140,6 @@ EOT;
 	.stylista-bloggerbar ul li {
 		float: left;
 		margin-right: 24px;
-		line-height: 1em;
 	}
 
 	.stylista-bloggerbar ul li a {
