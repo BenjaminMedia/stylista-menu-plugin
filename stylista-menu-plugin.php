@@ -4,13 +4,13 @@
  * @package Stylista Norway Menu Plugin
  * @author	Peytz & Co
  *
- * Plugin Name:			 Stylista.no Menu
- * Plugin URI:				https://github.com/Peytz-WordPress/stylista-header
- * Description:			 A plugin to include the stylista.no menu.
- * Version:					 1.0
- * Author:						Duddi Mai Daugaard and James Bonham/Peytz & Co
- * Author URI:				http://peytz.dk/medarbejdere/
- * GitHub Plugin URI: https://github.com/Peytz-WordPress/stylista-header
+ * Plugin Name:       Stylista.no Menu
+ * Plugin URI:        https://github.com/Peytz-WordPress/stylista-menu-plugin
+ * Description:       A plugin to include the stylista.no menu.
+ * Version:           2.0
+ * Author:            Duddi Mai Daugaard and James Bonham/Peytz & Co
+ * Author URI:        http://peytz.dk/medarbejdere/
+ * GitHub Plugin URI: https://github.com/Peytz-WordPress/stylista-menu-plugin
  */
 
 function stylista_css() {
