@@ -125,13 +125,15 @@ EOT;
 		margin: 0 auto;
 		max-width: 1160px;
 		background: #F6F6F6;
-		height: 61px;
+		min-height: 61px;
 		padding: 10px 0 0 134px;
 		margin-bottom: 20px;
 		list-style: none;
+		overflow: hidden;
 	}
 
 	.stylista-bloggerbar ul {
+		overflow: hidden;
 		list-style: none;
 		margin: 0;
 		padding: 0;
