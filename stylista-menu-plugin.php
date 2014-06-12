@@ -220,7 +220,7 @@ echo <<< EOT
 		thediv.remove();
 	} else {
 		jQuery(document).ready( function($) {
-			$('.stylista-header').prependTo('body');
+			$('.stylista-header, .stylista-bloggerbar').prependTo('body');
 		});
 	}
 	</script>
