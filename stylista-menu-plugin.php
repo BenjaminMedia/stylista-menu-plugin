@@ -15,6 +15,7 @@
 
 function stylista_css() {
   wp_enqueue_style( 'stylista-menu-plugin', plugin_dir_url( __FILE__ ) . 'assets/css/stylista-menu-plugin.css', array(), '3.0.0', 'all' );
+  wp_enqueue_script( 'stylista-menu-plugin', plugin_dir_url( __FILE__ ) . 'assets/js/stylista-menu-plugin.js', array(), '3.0.0', 'all' );
 };
 add_action('wp_enqueue_scripts', 'stylista_css');
 
@@ -30,7 +31,8 @@ function stylista_insert_header($buffer) {
     <div id="stylista-header-wrap">
       <div class="stylista-header">
         <div class="stylista-nav-wrapper">
-          <a href="http://stylista.no"><img class="stylista-logo" src="$logo" /></a>
+          <button type="button" aria-hidden="true" class="stylista-hamburger">&#x2261;</button>
+          <a href="http://stylista.no" class="stylista-logo"><img src="$logo" /></a>
 
           <ul class="stylista-menu stylista-main-menu">
             <li class="first leaf level-1"><a href="http://stylista.no/trender-og-guider">Trender &amp; Guider</a></li>
