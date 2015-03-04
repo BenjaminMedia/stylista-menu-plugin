@@ -1,0 +1,71 @@
+.stylista-header {
+  @include border-box;
+
+  color: white;
+  font-family: verdana;
+  background: #333;
+  width: 100%;
+  position: relative;
+  color: #fff;
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.stylista-nav-wrapper {
+  margin: 0 auto;
+  max-width: $max-width;
+
+  @media (max-width: $screen-small) {
+    min-height: 47px;
+  }
+
+  @media (min-width: $screen-medium) {
+    height: 60px;
+  }
+}
+
+// Helper class used with JS to toggle the nav items on narrow viewports
+.stylista-responsive-nav {
+  @media (max-width: $screen-small) {
+    display: block !important;
+  }
+}
+
+.stylista-hamburger {
+  display: none;
+
+  @media (max-width: $screen-small) {
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    border: 0;
+    background: 0;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font: bold 40px/1 'Times New Roman', 'Georgia', 'Verdana', sans-serif;
+    cursor: pointer;
+
+    &:hover, &:active, &:focus {
+      color: #5BA697;
+    }
+  }
+}
+
+.stylista-logo {
+  img {
+    position: absolute;
+
+    @media (max-width: $screen-large) {
+      height: 60px;
+      width: auto;
+    }
+
+    @media (max-width: $screen-small) {
+      height: 47px;
+      width: auto;
+    }
+  }
+}

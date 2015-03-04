@@ -1,0 +1,55 @@
+.stylista-bloggerbar {
+  @include border-box;
+
+  font-family: 'ProximaNova-Regular', $font-family;
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: $max-width;
+  background: #F6F6F6;
+  min-height: 35px;
+  padding: 10px 0 0 0;
+  margin-bottom: 20px;
+  list-style: none;
+  overflow: hidden;
+
+  @media (max-width: $screen-small) {
+    display: none;
+  }
+
+  @media (min-width: $screen-large+1) {
+    padding-left: 134px;
+  }
+
+  ul {
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 14px;
+
+    li {
+      float: left;
+      margin: 0 24px 6px 0;
+
+      a {text-decoration: none;}
+
+      &.last {margin-right: 0px;}
+
+      span {
+        color: #777;
+        text-transform: uppercase;
+        position: relative;
+        top: 0;
+        margin-left: 10px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  @media (max-width: $screen-small) {
+    ul {margin-left: 61px;}
+    ul li {float: none;}
+    li a {display: block; padding: 5px 0;}
+    a .blogger {margin-left: 0;}
+  }
+}

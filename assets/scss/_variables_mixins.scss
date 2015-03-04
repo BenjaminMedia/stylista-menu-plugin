@@ -1,0 +1,13 @@
+$screen-large: 930px;
+$screen-medium: 810px;
+$screen-small: ($screen-medium)-1;
+
+$max-width: 1160px;
+$font-family: 'ProximaNova-Bold', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+@mixin border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}

@@ -1,0 +1,74 @@
+ul.stylista-menu {
+  list-style: none;
+  margin: 0 0 0 61px;
+  padding: 0;
+
+  @media (max-width: $screen-small) {
+    display: none;
+    margin-left: 51px;
+  }
+
+  li {
+    float: left;
+    border-right: 1px solid #545454;
+
+    a {
+      color: #DEDEDE;
+      display: block;
+      font-family: $font-family;
+      padding: 12px 12px 13px;
+      text-transform: uppercase;
+      white-space: nowrap;
+      text-decoration: none;
+
+      &:focus, &:hover {
+        background: #2b2b2b;
+        color: #DEDEDE;
+      }
+
+      @media (min-width: $screen-medium) {
+        padding: 21px 17px 22px;
+      }
+    }
+
+    @media (max-width: $screen-small) {
+      float: none;
+    }
+  }
+
+  @media (min-width: $screen-large+1) {
+    margin-left: 125px;
+  }
+}
+
+ul.stylista-menu.stylista-user-menu {
+  float: right;
+
+  @media (max-width: $screen-small) {
+    float: none;
+  }
+
+  .leaf {
+    border: medium none;
+
+    a {display: inline-block;}
+
+    @media (min-width: $screen-medium) {
+      &.first a {
+        background: none repeat scroll 0 0 transparent;
+        border: 3px solid #5BA697;
+        color: white;
+        cursor: pointer;
+        font-family: $font-family;
+        font-size: 0.923em;
+        height: auto;
+        line-height: 1;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 10px;
+        position: relative;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
