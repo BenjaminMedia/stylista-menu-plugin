@@ -50,13 +50,14 @@ function stylista_insert_header($buffer) {
 
       <div class="stylista-bloggerbar">
         <ul>
-          <li><a href="http://stylista.no/blog/ulrikke-lund"><span class="blogger">Ulrikke Lund</span></a></li>
+          <li><a href="http://gigglesndimples.com/"><span class="blogger">Giggles & Dimples</span></a></li>
           <li><a href="http://stylista.no/blog/ingrid-holm"><span class="blogger">Ingrid Holm</span></a></li>
           <li><a href="http://stylista.no/blog/nettenestea"><span class="blogger">NetteNestea</span></a></li>
           <li><a href="http://stylista.no/blog/bybenedicthe"><span class="blogger">By_Benedicthe</span></a></li>
           <li><a href="http://stylista.no/blog/cathinthecity"><span class="blogger">CathInTheCity</span></a></li>
           <li><a href="http://eirinkristiansen.no"><span class="blogger">Eirin Kristiansen</span></a></li>
-          <li class="last"><a href="http://mariewolla.no"><span class="blogger">Marie Wolla</span></a></li>
+          <li><a href="http://mariewolla.no"><span class="blogger">Marie Wolla</span></a></li>
+          <li class="last"><a href="http://annijor.no"><span class="blogger">Anniken Jørgensen</span></a></li>
         </ul>
       </div>
     </div>
