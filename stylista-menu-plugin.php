@@ -76,7 +76,6 @@ function stylista_insert_header($buffer) {
 
           <ul class="stylista-menu stylista-main-menu">
             <li class="first leaf level-1"><a href="http://stylista.no/trender-og-guider">Trender &amp; Guider</a></li>
-            <li class="expanded js-expand shop-submenu level-1"><a href="http://stylista.no/shop">Shop</a></li>
             <li class="expanded js-expand shop-submenu level-1"><a href="http://stylista.no/bloggers">Bloggere</a></li>
             <li class="expanded js-expand shop-submenu level-1"><a href="http://stylista.no/stylistatv">StylistaTV</a></li>
           </ul>
