@@ -1,0 +1,11 @@
+{
+  "name": "benjaminmedia/stylista-menu-plugin",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/BenjaminMedia/stylista-menu-plugin",
+  "license": "GPLv3",
+  "description": "This plugin adds the stylista.no header to WordPress sites",
+  "keywords": ["Stylista.no"],
+  "require": {
+    "composer/installers": "~1.0.6"
+  }
+}

@@ -42,6 +42,10 @@ function stylista_insert_header($buffer) {
         'link' => 'http://ingridholm.no/'
     ),
     array(
+        'name' => 'by Benedicthe',
+        'link' => 'http://stylista.no/blog/bybenedicthe/'
+    ),
+    array(
         'name' => 'Cath in the City',
         'link' => 'http://www.cathinthecity.com/'
     ),
@@ -57,10 +61,6 @@ function stylista_insert_header($buffer) {
         'name' => 'Anniken Jørgensen',
         'link' => 'http://www.annijor.no/'
     ),
-    array(
-        'name' => 'by Benedicthe',
-        'link' => 'http://stylista.no/blog/bybenedicthe/'
-    )
   );
 
   foreach($bloggers as $blog){
