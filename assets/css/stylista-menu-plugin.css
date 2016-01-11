@@ -1,1 +1,252 @@
-@font-face{font-family:'ProximaNova-Bold';src:url('../fonts/27179A_6_0.eot');src:url('../fonts/27179A_6_0.eot?#iefix') format("embedded-opentype"),url('../fonts/27179A_6_0.woff') format("woff"),url('../fonts/27179A_6_0.ttf') format("truetype");}.stylista-header{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;color:white;font-family:verdana;background:#333;width:100%;position:relative;color:#fff;font-family:'ProximaNova-Bold','Helvetica Neue',Arial,Helvetica,sans-serif;font-size:14px;line-height:14px}.stylista-nav-wrapper{margin:0 auto;max-width:1160px}@media (max-width: 809px){.stylista-nav-wrapper{min-height:47px;}}@media (min-width: 810px){.stylista-nav-wrapper{height:60px;}}@media (max-width: 809px){.stylista-responsive-nav{display:block !important;}}.stylista-hamburger{display:none}@media (max-width: 809px){.stylista-hamburger{display:block;position:absolute;top:3px;right:20px;border:0;background:0;padding:0;margin:0;color:#fff;font:bold 40px/1 'Times New Roman','Georgia','Verdana',sans-serif;cursor:pointer;}.stylista-hamburger:hover,.stylista-hamburger:active,.stylista-hamburger:focus{color:#5BA697}}.stylista-logo img{position:absolute}@media (max-width: 930px){.stylista-logo img{height:60px;width:auto;}}@media (max-width: 809px){.stylista-logo img{height:47px;width:auto;}}ul.stylista-menu{list-style:none;margin:0 0 0 61px;padding:0}@media (max-width: 809px){ul.stylista-menu{display:none;margin-left:51px;}}ul.stylista-menu li{float:left;border-right:1px solid #545454}ul.stylista-menu li a{color:#DEDEDE;display:block;font-family:'ProximaNova-Bold','Helvetica Neue',Arial,Helvetica,sans-serif;padding:12px 12px 13px;text-transform:uppercase;white-space:nowrap;text-decoration:none}ul.stylista-menu li a:focus,ul.stylista-menu li a:hover{background:#2b2b2b;color:#DEDEDE}@media (min-width: 810px){ul.stylista-menu li a{padding:21px 17px 22px;}}@media (max-width: 809px){ul.stylista-menu li{float:none;}}@media (min-width: 931px){ul.stylista-menu{margin-left:125px;}}ul.stylista-menu.stylista-user-menu{float:right}@media (max-width: 809px){ul.stylista-menu.stylista-user-menu{float:none;}}ul.stylista-menu.stylista-user-menu .leaf{border:medium none}ul.stylista-menu.stylista-user-menu .leaf a{display:inline-block}@media (min-width: 810px){ul.stylista-menu.stylista-user-menu .leaf.first a{background:none repeat scroll 0 0 transparent;border:3px solid #5BA697;color:white;cursor:pointer;font-family:'ProximaNova-Bold','Helvetica Neue',Arial,Helvetica,sans-serif;font-size:0.923em;height:auto;line-height:1;margin-right:10px;margin-top:10px;padding:10px;position:relative;text-transform:uppercase}}.stylista-bloggerbar{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;font-family:'ProximaNova-Regular','ProximaNova-Bold','Helvetica Neue',Arial,Helvetica,sans-serif;font-size:14px;margin:0 auto;max-width:1160px;background:#F6F6F6;min-height:35px;padding:10px 0 0 0;margin-bottom:20px;list-style:none;overflow:hidden}@media (max-width: 809px){.stylista-bloggerbar{display:none;}}@media (min-width: 931px){.stylista-bloggerbar{padding-left:134px;}}.stylista-bloggerbar ul{overflow:hidden;list-style:none;margin:0;padding:0;line-height:14px}.stylista-bloggerbar ul li{float:left;margin:0 20px 6px 0}.stylista-bloggerbar ul li a{text-decoration:none}.stylista-bloggerbar ul li.last{margin-right:0px}.stylista-bloggerbar ul li span{color:#777;text-transform:uppercase;position:relative;top:0;margin-left:10px;font-size:12px}@media (max-width: 809px){.stylista-bloggerbar ul{margin-left:61px}.stylista-bloggerbar ul li{float:none}.stylista-bloggerbar li a{display:block;padding:5px 0}.stylista-bloggerbar a .blogger{margin-left:0}}
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url("../fonts/27179A_6_0.eot");
+  src: url("../fonts/27179A_6_0.eot?#iefix") format("embedded-opentype"), url("../fonts/27179A_6_0.woff") format("woff"), url("../fonts/27179A_6_0.ttf") format("truetype");
+}
+
+.stylista-header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  font-family: verdana;
+  background: #333;
+  width: 100%;
+  position: relative;
+  color: #fff;
+  font-family: "ProximaNova-Bold", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.stylista-nav-wrapper {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+@media (max-width: 809px) {
+  .stylista-nav-wrapper {
+    min-height: 47px;
+  }
+}
+
+@media (min-width: 810px) {
+  .stylista-nav-wrapper {
+    height: 60px;
+  }
+}
+
+@media (max-width: 809px) {
+  .stylista-responsive-nav {
+    display: block !important;
+  }
+}
+
+.stylista-hamburger {
+  display: none;
+}
+
+@media (max-width: 809px) {
+  .stylista-hamburger {
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    border: 0;
+    background: 0;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font: bold 40px/1 "Times New Roman", "Georgia", "Verdana", sans-serif;
+    cursor: pointer;
+  }
+  .stylista-hamburger:hover, .stylista-hamburger:active, .stylista-hamburger:focus {
+    color: #5BA697;
+  }
+}
+
+.stylista-logo img {
+  position: absolute;
+}
+
+@media (max-width: 930px) {
+  .stylista-logo img {
+    height: 60px;
+    width: auto;
+  }
+}
+
+@media (max-width: 809px) {
+  .stylista-logo img {
+    height: 47px;
+    width: auto;
+  }
+}
+
+ul.stylista-menu {
+  list-style: none;
+  margin: 0 0 0 61px;
+  padding: 0;
+}
+
+@media (max-width: 809px) {
+  ul.stylista-menu {
+    display: none;
+    margin-left: 51px;
+  }
+}
+
+ul.stylista-menu li {
+  border-right: 1px solid #545454;
+}
+
+@media (min-width: 810px) {
+  ul.stylista-menu li {
+    display: inline-block;
+  }
+}
+
+ul.stylista-menu li a {
+  color: #DEDEDE;
+  display: block;
+  font-family: "ProximaNova-Bold", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 12px 12px 13px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+ul.stylista-menu li a:focus, ul.stylista-menu li a:hover {
+  background: #2b2b2b;
+  color: #DEDEDE;
+}
+
+@media (min-width: 810px) {
+  ul.stylista-menu li a {
+    padding: 21px 17px 22px;
+  }
+}
+
+@media (max-width: 809px) {
+  ul.stylista-menu li {
+    float: none;
+  }
+}
+
+@media (min-width: 931px) {
+  ul.stylista-menu {
+    margin-left: 125px;
+  }
+}
+
+ul.stylista-menu.stylista-user-menu {
+  float: right;
+}
+
+@media (max-width: 809px) {
+  ul.stylista-menu.stylista-user-menu {
+    float: none;
+  }
+}
+
+ul.stylista-menu.stylista-user-menu .leaf {
+  border: medium none;
+}
+
+ul.stylista-menu.stylista-user-menu .leaf a {
+  display: inline-block;
+}
+
+@media (min-width: 810px) {
+  ul.stylista-menu.stylista-user-menu .leaf.first a {
+    background: none repeat scroll 0 0 transparent;
+    border: 3px solid #5BA697;
+    color: white;
+    cursor: pointer;
+    font-family: "ProximaNova-Bold", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.923em;
+    height: auto;
+    line-height: 1;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    text-transform: uppercase;
+  }
+}
+
+.stylista-bloggerbar {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "ProximaNova-Regular", "ProximaNova-Bold", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 1160px;
+  background: #F6F6F6;
+  min-height: 35px;
+  padding: 10px 0 0 0;
+  margin-bottom: 20px;
+  list-style: none;
+  overflow: hidden;
+}
+
+@media (max-width: 809px) {
+  .stylista-bloggerbar {
+    display: none;
+  }
+}
+
+@media (min-width: 931px) {
+  .stylista-bloggerbar {
+    padding-left: 134px;
+  }
+}
+
+.stylista-bloggerbar ul {
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 14px;
+}
+
+.stylista-bloggerbar ul li {
+  float: left;
+  margin: 0 20px 6px 0;
+}
+
+.stylista-bloggerbar ul li a {
+  text-decoration: none;
+}
+
+.stylista-bloggerbar ul li.last {
+  margin-right: 0px;
+}
+
+.stylista-bloggerbar ul li span {
+  color: #777;
+  text-transform: uppercase;
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+@media (max-width: 809px) {
+  .stylista-bloggerbar ul {
+    margin-left: 61px;
+  }
+  .stylista-bloggerbar ul li {
+    float: none;
+  }
+  .stylista-bloggerbar li a {
+    display: block;
+    padding: 5px 0;
+  }
+  .stylista-bloggerbar a .blogger {
+    margin-left: 0;
+  }
+}
