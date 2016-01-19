@@ -61,6 +61,10 @@ function stylista_insert_header($buffer) {
         'name' => 'Anniken Jørgensen',
         'link' => 'http://www.annijor.no/'
     ),
+    array(
+        'name' => 'Hanna Martine',
+        'link' => 'http://hannamartine.no/'
+    ),
   );
 
   foreach($bloggers as $blog){
