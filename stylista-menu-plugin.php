@@ -7,7 +7,7 @@
  * Plugin Name:       Stylista.no Menu
  * Plugin URI:        https://github.com/BenjaminMedia/stylista-menu-plugin
  * Description:       A plugin to include the stylista.no menu.
- * Version:           3.0.0
+ * Version:           3.5.0
  * Author:            Peytz & Co + Bonnier Interactive
  * Author URI:        http://peytz.dk/medarbejdere/
  * GitHub Plugin URI: https://github.com/BenjaminMedia/stylista-menu-plugin
@@ -38,8 +38,8 @@ function stylista_insert_header($buffer) {
         'link' => 'http://ingridholm.no/'
     ),
     array(
-        'name' => 'NetteNestea',
-        'link' => 'http://ingridholm.no/'
+        'name' => 'Guri Heli',
+        'link' => 'http://guriheli.com/'
     ),
     array(
         'name' => 'by Benedicthe',
